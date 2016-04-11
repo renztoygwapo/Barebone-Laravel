@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::post('person', 'PersonController@store');
+Route::get('persons', 'PersonController@index');
+Route::delete('person/{person}', 'PersonController@destroy');
