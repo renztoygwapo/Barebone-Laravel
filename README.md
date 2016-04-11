@@ -1,0 +1,2 @@
+# Barebone-Laravel
+laravel
